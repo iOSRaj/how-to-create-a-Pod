@@ -4,12 +4,15 @@ Most of the iOS developers know what is Pod, how it reduces the complexity of th
 
 Its basically a dependency manager for iOS where the required componets can be added as a lego to the projects
 
-### Basic Commands for Pod 
+### Basic Commands of Pod 
 
 ```sh
 $ sudo gem install cocoapods
 $ pod setup --verbose
 $ pod spec create [NAME]
+$ pod init
+$ pod install --verbose
+$ pod lib lint
 ```
 
 Lets get into the nitty-gritty of the cocopoads development with very simple steps.
